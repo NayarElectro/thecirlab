@@ -5,7 +5,7 @@ var HotText = 'MDN';
 var URL = "https://discordapp.com/oauth2/authorize?client_id=528225706996531221&scope=bot&permissions=8";
 var Discord_link = "https://discord.gg/UXuN7y9"
 
-client.login("NTI4MjI1NzA2OTk2NTMxMjIx.DyPEzw.fpvlEP0Io9gg6aRZxAsHiY-VOtc");
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("je suis prêt !")
